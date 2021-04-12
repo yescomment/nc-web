@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/ncllc_resolution.pdf"
+    }
+  ]
+}

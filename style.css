@@ -17,6 +17,11 @@ p {
   margin: 1em 0;
 }
 
+a {
+  font-style: italic;
+  text-decoration: underline;
+}
+
 strong {
   color: grey;
 }

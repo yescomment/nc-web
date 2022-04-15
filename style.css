@@ -4,6 +4,16 @@ html {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+
+  background-color: #eeeeee;
+  color: #454545;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #454545;
+  color: #eeeeee;
+  }
 }
 
 body {

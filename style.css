@@ -18,7 +18,12 @@ p {
 }
 
 a {
+  color: inherit;
   font-style: italic;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 

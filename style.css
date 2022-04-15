@@ -1,10 +1,24 @@
+html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
 body {
-  font-family: 'Triplicate B';
+  font-family: 'Triplicate A', 'Menlo', monospace;
   line-height: 1em;
+  max-width: 600px;
+  margin: auto;
 }
 
 p {
   margin: 1em 0;
+}
+
+strong {
+  color: grey;
 }
 
 @font-face {

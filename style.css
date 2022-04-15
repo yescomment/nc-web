@@ -1,0 +1,94 @@
+html {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+body {
+  font-family: 'Triplicate A', 'Menlo', monospace;
+  line-height: 1em;
+  max-width: 600px;
+  margin: auto;
+}
+
+p {
+  margin: 1em 0;
+}
+
+strong {
+  color: grey;
+}
+
+@font-face {
+  font-family: 'Triplicate A';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_a_regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate A';
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_a_italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate A';
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_a_bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate A';
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_a_bold_italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate B';
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_b_regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate B';
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_b_italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate B';
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_b_bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Triplicate B';
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url('./type/triplicate_ot_b_bold_italic.woff2') format('woff2');
+}
